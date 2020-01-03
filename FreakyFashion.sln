@@ -5,7 +5,9 @@ VisualStudioVersion = 16.0.29519.87
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{DC60F051-DFB3-4E6D-81B2-F6047DB666F6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FreakyFashion.WebMVC", "src\Web Apps\FreakyFashion.WebMVC\FreakyFashion.WebMVC.csproj", "{EE38EB76-E220-41BA-8AB1-0128FAC2F6AD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FreakyFashion.WebMVC", "src\Web Apps\FreakyFashion.WebMVC\FreakyFashion.WebMVC.csproj", "{EE38EB76-E220-41BA-8AB1-0128FAC2F6AD}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Web Apps", "Web Apps", "{C2A364FF-71E6-4537-9D69-A188C6FA61C0}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -22,7 +24,8 @@ Global
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
-		{EE38EB76-E220-41BA-8AB1-0128FAC2F6AD} = {DC60F051-DFB3-4E6D-81B2-F6047DB666F6}
+		{EE38EB76-E220-41BA-8AB1-0128FAC2F6AD} = {C2A364FF-71E6-4537-9D69-A188C6FA61C0}
+		{C2A364FF-71E6-4537-9D69-A188C6FA61C0} = {DC60F051-DFB3-4E6D-81B2-F6047DB666F6}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {130B86A8-6D27-409E-A83A-C8D9598073F0}
