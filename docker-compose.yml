@@ -1,0 +1,15 @@
+version: '3.4'
+
+services:
+  freakyfashion.webmvc:
+    image: ${DOCKER_REGISTRY-}freakyfashionwebmvc
+    build:
+      context: .
+      dockerfile: src/Web Apps/FreakyFashion.WebMVC/Dockerfile
+
+  catalogapi:
+    image: ${DOCKER_REGISTRY-}catalogapi
+    build:
+      context: .
+      dockerfile: src/Services/Catalog/Catalog API/Dockerfile
+
