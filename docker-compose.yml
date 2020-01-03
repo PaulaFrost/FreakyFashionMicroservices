@@ -1,6 +1,10 @@
 version: '3.4'
 
 services:
+
+  sql.data:
+    image: mcr.microsoft.com/mssql/server:2017-latest
+
   freakyfashion.webmvc:
     image: ${DOCKER_REGISTRY-}freakyfashionwebmvc
     build:
@@ -12,4 +16,3 @@ services:
     build:
       context: .
       dockerfile: src/Services/Catalog/Catalog API/Dockerfile
-
